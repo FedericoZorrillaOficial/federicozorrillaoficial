@@ -17,18 +17,18 @@
 
 ## 📌 Proyectos destacados
 
-### 🔧 [noDiving - Mi mini framework CSS](https://github.com/federicozorrillaoficial/nodiving)  
+ ### 🔧 [noDiving - Mi mini framework CSS](https://github.com/federicozorrillaoficial/nodiving)  
 Framework personal inspirado en SASS, ideal para estructurar ramas visuales.
 
-### 🌐 [Landing Animada con React](https://github.com/...)  
+ ### 🌐 [Landing Animada con React](https://github.com/...)  
 Sitio responsive con animaciones fluidas y diseño minimalista.
 
-### ⚙️ [Sistema SSH automatizado](https://github.com/...)  
+ ### ⚙️ [Sistema SSH automatizado](https://github.com/...)  
 Script en Termux para levantar un servidor SSH rápidamente en Android.
 
 ---
 
-## 📫 ¿Hablamos?
+ ## 📫 ¿Hablamos?
 
 - 🌐 [Portafolio](https://tusitio.com)
 - 📧 federicozorrillaoficial@gmail.com
