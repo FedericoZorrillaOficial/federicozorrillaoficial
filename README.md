@@ -31,7 +31,7 @@ Una calculadora para resolver problemas matemáticos simples de tipo aritmético
  ## 📫 ¿Hablamos?
 
 - 🌐 [Portafolio](https://federicozorrillaoficial.com/)
-- 📧 [Email](federicozorrillaoficial@gmail.com)
+- 📧 [Email](https://mailto:federicozorrillaoficial@gmail.com)
 - 🐦 [X (@TuTwitter)](https://x.com/Federico_Z_O)
 - 💼 [LinkedIn](https://do.linkedin.com/in/federicozorrilla)
 
