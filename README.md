@@ -1,6 +1,6 @@
 # 👋 ¡Hola! Soy Federico Zorrilla
 
-💻 **Desarrollador web** especializado en **React**, **Node.js** y herramientas modernas como **Tailwind CSS** y **Git**.  
+💻 **Desarrollador web** especializado en **React**, **Node.js** y herramientas modernas como **Tailwind CSS**, **Git**, etc.  
 🚀 Me apasiona construir interfaces limpias, funcionales y rápidas.  
 🎯 Busco oportunidades **freelance** y **remotas** donde pueda seguir aprendiendo y aportar valor real.
 
@@ -17,22 +17,22 @@
 
 ## 📌 Proyectos destacados
 
- ### 🔧 [noDiving - Mi mini framework CSS](https://github.com/federicozorrillaoficial/nodiving)  
-Framework personal inspirado en SASS, ideal para estructurar ramas visuales.
+ ### 🔧 [Bar Refugio - Landing page ](https://github.com/federicozorrillaoficial/El-Refugio)  
+Proyecto personal de una landing page inspirado en Tailwindcss, css y html.
 
- ### 🌐 [Landing Animada con React](https://github.com/...)  
-Sitio responsive con animaciones fluidas y diseño minimalista.
+ ### 🌐 [Constructora Valentina Rios - portafolio](https://github.com/federicozorrillaoficial/Constructora-Valentina-Rios/)
+Portafolio web responsive con animaciones fluidas en javascript y diseño minimalista.
 
- ### ⚙️ [Sistema SSH automatizado](https://github.com/...)  
-Script en Termux para levantar un servidor SSH rápidamente en Android.
+ ### ⚙️ [Calculadora minimalista - proyecto simple](https://github.com/ hhhhh)  
+Una calculadora para resolver problemas matemáticos simples de tipo aritméticos.
 
 ---
 
  ## 📫 ¿Hablamos?
 
-- 🌐 [Portafolio](https://tusitio.com)
+- 🌐 [Portafolio](https://federicozorrillaoficial.com/))
 - 📧 federicozorrillaoficial@gmail.com
-- 🐦 [@TuTwitter](https://twitter.com/...)
-- 💼 [LinkedIn](https://linkedin.com/in/...)
+- 🐦 [X (@TuTwitter)](https://x.com/Federico_Z_O)
+- 💼 [LinkedIn](https://do.linkedin.com/in/federicozorrilla)
 
 ---
