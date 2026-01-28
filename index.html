@@ -65,45 +65,6 @@ ul { padding-left:1.2rem; }
 </head>
 <body>
 
-
-
-  <!-- El contenido que quieres convertir en imagen -->
-    <div id="tarjeta-producto">
-        <img src="https://via.placeholder.com" alt="Producto">
-        <h2>Producto Genial</h2>
-        <p>¡Cómpralo en mi tienda ahora mismo!</p>
-        <strong>$25.00</strong>
-    </div>
-
-    <button class="boton-compartir" onclick="compartir()">Compartir en Instagram</button>
-
-    <script>
-        async function compartir() {
-            const el = document.getElementById('tarjeta-producto');
-            
-            // 1. Convertir el DIV en un Canvas y luego en Blob
-            const canvas = await html2canvas(el);
-            canvas.toBlob(async (blob) => {
-                const file = new File([blob], 'mi-producto.png', { type: 'image/png' });
-                
-                // 2. Verificar si el navegador soporta compartir archivos
-                if (navigator.canShare && navigator.canShare({ files: [file] })) {
-                    try {
-                        await navigator.share({
-                            files: [file],
-                            title: 'Mira este producto',
-                            text: 'Lo encontré en esta tienda',
-                        });
-                    } catch (error) {
-                        console.error('Error al compartir:', error);
-                    }
-                } else {
-                    alert('Tu navegador no permite compartir archivos directamente. Prueba en móvil.');
-                }
-            }, 'image/png');
-        }
-    </script>
-
 <h1>👋 ¡Hola! Soy Federico Zorrilla</h1>
 <p>💻 Desarrollador web especializado en React, Node.js y herramientas modernas como Tailwind CSS, Git, etc.</p>
 <p>🚀 Me apasiona construir interfaces limpias, funcionales y rápidas.</p>
