@@ -22,6 +22,19 @@
 <meta name="twitter:title" content="Federico Zorrilla — Perfil GitHub">
 <meta name="twitter:description" content="Explora mis proyectos y perfil de GitHub.">
 
+    <link rel="manifest" href="manifest.json">
+  
+    <script>
+      if ('serviceWorker' in navigator) {
+        
+        navigator.serviceWorker.register('sw.js')
+        .then(() => console.log("Service Worker registrado correctamente"))
+        .catch(err => console.log("Error al registrar:", err));
+        
+      }
+    </script>
+    
+  
 <!-- Estructura de datos para SEO -->
 <script type="application/ld+json">
 {
