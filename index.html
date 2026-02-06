@@ -78,6 +78,43 @@ ul { padding-left:1.2rem; }
 </head>
 <body>
 
+    <script>
+        let eventoInstalacion; // Variable para guardar el evento de Google
+const miBoton = document.getElementById('botonInstalar'); // Tu botón de HTML
+
+// 1. Escuchar el evento de instalación
+window.addEventListener('beforeinstallprompt', (e) => {
+    // Evita que Chrome muestre su propio aviso automático
+    e.preventDefault();
+    // Guarda el evento para usarlo después
+    eventoInstalacion = e;
+    // Muestra tu botón (por defecto debería estar oculto)
+    miBoton.style.display = 'block';
+});
+
+// 2. Programar el clic de tu botón
+miBoton.addEventListener('click', async () => {
+    if (eventoInstalacion) {
+        // Muestra el cuadro de instalación oficial de Google
+        eventoInstalacion.prompt();
+        
+        // Espera a ver si el usuario aceptó o canceló
+        const { outcome } = await eventoInstalacion.userChoice;
+        console.log(`El usuario eligió: ${outcome}`);
+        
+        // Limpiamos la variable, el evento solo se puede usar una vez
+        eventoInstalacion = null;
+        miBoton.style.display = 'none';
+    }
+});
+
+    </script>
+
+    <button id="botonInstalar" style="display: none; padding: 10px; background: #2196F3; color: white;">
+    Descargar Aplicación 💻
+    </button>
+    
+
 <h1>👋 ¡Hola! Soy Federico Zorrilla</h1>
 <p>💻 Desarrollador web especializado en React, Node.js y herramientas modernas como Tailwind CSS, Git, etc.</p>
 <p>🚀 Me apasiona construir interfaces limpias, funcionales y rápidas.</p>
