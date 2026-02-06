@@ -1,4 +1,4 @@
-# 👋 ¡Hola! Soy Federico Zorrilla
+# ¡Hola! Soy Federico Zorrilla
 
 💻 **Desarrollador web** especializado en **React**, **Node.js** y herramientas modernas como **Tailwind CSS**, **Git**, etc.  
 🚀 Me apasiona construir interfaces limpias, funcionales y rápidas.  
