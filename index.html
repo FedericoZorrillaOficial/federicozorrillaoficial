@@ -130,7 +130,7 @@ ul { padding-left:1.2rem; }
 <p> <a href="https://github.com/FedericoZorrillaOficial" target="_blank">Visita mi perfil de GitHub aquí</a></p>
 <p><em>Serás redirigido a mi perfil de GitHub en 60 segundos.</em></p>
 
-        <button id="botonInstalar" style="display: none; padding: 10px; background: #2196F3; color: white;">
+        <button id="botonInstalar" style=" padding: 10px; background: red; color: white;">
     Descargar Aplicación 
         </button>
 
@@ -144,8 +144,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     // Guarda el evento para usarlo después
     eventoInstalacion = e;
-    // Muestra tu botón (por defecto debería estar oculto)
-    miBoton.style.display = 'block';
+    
 });
 
 // 2. Programar el clic de tu botón
@@ -160,7 +159,6 @@ miBoton.addEventListener('click', async () => {
         
         // Limpiamos la variable, el evento solo se puede usar una vez
         eventoInstalacion = null;
-        miBoton.style.display = 'none';
     }
 });
 
