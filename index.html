@@ -140,7 +140,26 @@ ul { padding-left:1.2rem; }
 
 
 <script>
-alert(0);
+
+    let eventoInstalacion;
+
+// Guardamos el permiso apenas el navegador lo detecte
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    eventoInstalacion = e;
+    console.log("Listo: El navegador ya permite la descarga.");
+});
+
+document.getElementById('botonInstalar').addEventListener('click', async () => {
+    if (eventoInstalacion) {
+        // Ejecuta la instalación
+        eventoInstalacion.prompt();
+        eventoInstalacion = null; // Se usa una sola vez por sesión
+    } else {
+        alert("El navegador aún no detecta los archivos de la PWA o no son correctos (Revisa los iconos de 512px).");
+    }
+});
+
     
 </script>
 
