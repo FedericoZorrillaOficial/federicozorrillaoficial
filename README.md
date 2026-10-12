@@ -1,17 +1,22 @@
 # ¡Hola! Soy Federico Zorrilla
 
-💻 **Desarrollador web** especializado en **React**, **Node.js** y herramientas modernas como **Tailwind CSS**, **Git**, etc.  
-🚀 Me apasiona construir interfaces limpias, funcionales y rápidas.  
-🎯 Busco oportunidades **freelance** y **remotas** donde pueda seguir aprendiendo y aportar valor real.
+💻 **Desarrollador software** especializado en comercio electronico usando:
 
----
+## core
+**Next.js (React)**, **Laravel**, **Typescript**, **APIs REST**
 
-## 🛠️ Tecnologías que uso
+## Bases de datos
+**PostgreSQL**, **MySQL (MariaDB)**,
+**SQLite**
 
-- React · Next.js · Tailwind CSS  
-- Node.js · Express · MongoDB  
-- Git · GitHub · Linux · Vite  
-- HTML · CSS · JavaScript ES6+
+## Infraestructura
+**Docker**, **CI/CD**, **Linux**, **Nginx**
+
+## Sistemas y rendimiento
+**Rust**, **C**
+
+
+Me apasiona construir software que aporte valor al usuarios.
 
 ---
 
@@ -25,14 +30,5 @@ Portafolio web responsive con animaciones fluidas en javascript y diseño minima
 
  ### 🧮 [Calculadora minimalista - proyecto simple](https://github.com/federicozorrillaoficial/Calculadora/)  
 Una calculadora para resolver problemas matemáticos simples de tipo aritméticos.
-
----
-
- ## 📫 ¿Hablamos?
-
-- 🌐 [Portafolio](https://federicozorrillaoficial.com/)
-- 📧 [Email](mailto:FedericoZorrillaOficial@gmail.com)
-- 🐦 [X (@TuTwitter)](https://x.com/Federico_Z_O)
-- 💼 [LinkedIn](https://do.linkedin.com/in/federicozorrilla)
 
 ---
