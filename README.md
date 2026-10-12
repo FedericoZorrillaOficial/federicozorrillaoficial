@@ -6,12 +6,7 @@
 
 ---
 
-### Filosofía de Desarrollo
 
-*   **Rendimiento Extremo:** Eliminación de dependencias infladas y frameworks pesados.
-*   **Código Limpio:** Simplicidad técnica como máxima expresión de calidad y bajo costo operativo.
-
----
 
 ### Stack Tecnológico
 
