@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://federicozorrillaoficial.com" alt="Federico Zorrilla Logo" width="110" />
+  <img src="https://federicozorrillaoficial.com/img/logo.svg" alt="Federico Zorrilla Logo" width="110" />
   <h1>Federico Zorrilla</h1>
   <p><strong>Software Engineer</strong> especializado en Comercio Electrónico y Productos Digitales Eficientes</p>
 </div>
